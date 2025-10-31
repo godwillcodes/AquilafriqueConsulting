@@ -1,0 +1,29 @@
+{
+  "name": "tailwind_wp_starter",
+  "version": "1.0.0",
+  "description": "Custom WordPress starter theme with Tailwind CSS.",
+  "author": "Godwill Barasa",
+  "license": "GPL-2.0-or-later",
+  "keywords": [
+    "WordPress",
+    "Theme"
+  ],
+  "homepage": "https://github.com/godwillbarasa/tailwind_wp_starter",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godwillbarasa/tailwind_wp_starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/godwillbarasa/tailwind_wp_starter/issues"
+  },
+  "scripts": {
+    "dev": "npx postcss css/input.css -o css/output.css --watch",
+    "build": "npx postcss css/input.css -o css/output.css"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.13",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.1.13"
+  }
+}

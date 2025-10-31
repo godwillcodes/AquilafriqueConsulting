@@ -57,7 +57,7 @@ p, li, span, a, div {
 
 /* Links */
 .prose a {
-  color: #D16555;
+  color: #5b112a;
   text-decoration: underline;
   transition: color 0.2s ease;
 }

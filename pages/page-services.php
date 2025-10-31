@@ -28,11 +28,11 @@ get_template_part( 'components/secondary-banner' );
                 <div class="p-6 flex flex-col flex-1">
                     <h3 class="text-2xl font-semibold text-gray-900 mb-2"><?php the_title(); ?></h3>
                     <div class="text-gray-700 mb-6 text-lg flex-1"><?php echo wp_trim_words(get_the_excerpt(), 26, '...'); ?></div>
-                    <div class="flex items-center mt-auto text-sm font-semibold text-gray-900 transition-colors duration-300 group-hover:text-[#D16555]">
+                    <div class="flex items-center mt-auto text-sm font-semibold text-gray-900 transition-colors duration-300 group-hover:text-[#5b112a]">
                         Learn more
                         <span class="ml-2 text-lg transition-transform duration-300 group-hover:translate-x-1">→</span>
                     </div>
-                    <div class="h-0.5 w-8 mt-1 bg-[#D16555] transition-all duration-300 group-hover:w-24"></div>
+                    <div class="h-0.5 w-8 mt-1 bg-[#5b112a] transition-all duration-300 group-hover:w-24"></div>
                 </div>
             </a>
             <?php endwhile; wp_reset_postdata(); ?>

@@ -25,7 +25,7 @@ get_template_part( 'components/secondary-banner' );
             <div class="text-gray-500 text-sm mb-2"><?php echo get_the_date(); ?></div>
             <h3 class="text-lg font-semibold text-[#1F3131] mb-2"><?php the_title(); ?></h3>
             <div class="h-6 md:h-10"></div>
-            <span class="inline-flex items-center lg:text-base text-sm font-medium border-b-2 border-[#D16555]">
+            <span class="inline-flex items-center lg:text-base text-sm font-medium border-b-2 border-[#5b112a]">
               Read More <span class="ml-1 text-lg">→</span>
             </span>
           </div>

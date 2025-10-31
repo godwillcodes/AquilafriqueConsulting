@@ -28,14 +28,14 @@
         <!-- CTA Buttons -->
         <div class="mt-10 flex flex-wrap items-center gap-4">
           <a href="<?php echo esc_url( home_url('/contact-aquilafrique') ); ?>"
-             class="group inline-flex items-center justify-center rounded-lg bg-[#5b112a] px-8 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-[#f0b929] hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#d4a223] focus:ring-offset-2 focus:ring-offset-[#0b3435]"
+             class="group inline-flex items-center justify-center rounded-lg bg-[#5b112a] px-8 py-4 text-base font-semibold text-white shadow-lg transition-all hover:bg-[#590925] hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-[#d4a223] focus:ring-offset-2 focus:ring-offset-[#0b3435]"
              aria-label="Talk to an Aquilafrique advisor">
             Talk to an advisor
             <svg class="ml-2 h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
-          <a href="/services" class="inline-flex items-center justify-center rounded-lg border-2 border-black bg-white/5 px-8 py-4 text-base font-semibold text-black backdrop-blur-sm transition-all hover:border-white/50 hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#0b3435]"
+          <a href="/services" class="inline-flex items-center justify-center rounded-lg border-2 border-black bg-white/5 px-8 py-4 text-base font-semibold text-black backdrop-blur-sm transition-all hover:border-[#590925] hover:bg-white/10 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#0b3435]"
              aria-label="Explore Aquilafrique services">
             Explore services
           </a>

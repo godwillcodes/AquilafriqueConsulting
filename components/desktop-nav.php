@@ -24,7 +24,7 @@
         <!-- Main Navigation -->
         <?php
         wp_nav_menu([
-          'menu'            => 3,
+          'menu'            => 4,
           'container'        => 'nav',
           'container_class'  => 'main-navigation',
           'container_aria_label' => 'Main navigation',
@@ -54,32 +54,39 @@
 
 <!-- Mobile Navigation -->
 <header class="sticky top-0 z-50 border-b border-white/20 bg-white/80 shadow-sm backdrop-blur-xl md:hidden" role="banner">
-  <div class="mx-auto w-full max-w-7xl px-4">
-    <div class="flex h-16 items-center justify-between">
-      <!-- Mobile Logo -->
-      <a href="<?php echo esc_url( home_url('/') ); ?>" class="flex items-center gap-2.5 text-[#0b3435]" aria-label="<?php bloginfo('name'); ?> home">
-        <?php if ( has_custom_logo() ) : ?>
-          <div class="flex h-10 w-10 items-center overflow-hidden rounded-lg">
-            <?php the_custom_logo(); ?>
-          </div>
-        <?php else : ?>
-          <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-gradient-to-br from-[#d4a223] to-[#f0b929] shadow-md">
-            <svg class="h-6 w-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
-            </svg>
-          </div>
-        <?php endif; ?>
-        <span class="font-serif text-lg font-bold tracking-tight text-[#0b3435]"><?php bloginfo('name'); ?></span>
-      </a>
+<div class="mx-auto w-full max-w-7xl px-4">
+  <div class="flex h-16 items-center justify-between">
+    <!-- Mobile Logo: Always left -->
+    <a href="<?php echo esc_url( home_url('/') ); ?>" class="flex items-center gap-2 text-[#0b3435]" aria-label="<?php bloginfo('name'); ?> home">
+  <?php if ( has_custom_logo() ) : ?>
+    <?php
+      $custom_logo_id = get_theme_mod( 'custom_logo' );
+      $logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
+    ?>
+    <img src="<?php echo esc_url( $logo[0] ); ?>"
+         alt="<?php bloginfo('name'); ?> Logo"
+         class="h-12 w-auto max-w-[120px] object-contain" />
+  <?php else : ?>
+    <!-- Optional: fallback SVG or text -->
+    <span class="font-serif text-xl font-bold"><?php bloginfo('name'); ?></span>
+  <?php endif; ?>
+</a>
 
-      <!-- Mobile Menu Button -->
-      <button type="button" class="flex h-10 w-10 items-center justify-center rounded-lg text-[#0b3435] transition-all hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-[#d4a223]/50" aria-label="Open menu" id="mobile-menu-button">
-        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-        </svg>
-      </button>
-    </div>
+
+    <!-- Mobile Menu Button: Always right -->
+    <button
+      type="button"
+      class="flex h-10 w-10 items-center justify-center rounded-lg text-[#fff] bg-[#590925] transition-all hover:bg-stone-100 focus:outline-none focus:ring-2 focus:ring-[#d4a223]/50"
+      aria-label="Open menu"
+      id="mobile-menu-button"
+    >
+      <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+      </svg>
+    </button>
   </div>
+</div>
+
 
   <!-- Mobile Menu Panel (hidden by default) -->
   <div class="hidden border-t border-white/20 bg-white/95 backdrop-blur-xl" id="mobile-menu-panel">

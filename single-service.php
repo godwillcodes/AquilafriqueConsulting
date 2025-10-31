@@ -1,271 +1,149 @@
 <?php
 get_header();
-get_template_part('components/secondary-banner');
+get_template_part( 'components/secondary-banner' );
+
 ?>
 
- 
+<main class="bg-white">
 
-    <main class="bg-[#FAFAF8]">
-        <!-- Hero Section -->
-        <section class="hero-gradient relative overflow-hidden">
-            <div class="absolute inset-0 opacity-5">
-                <div class="absolute top-20 left-20 w-72 h-72 bg-[#009868] rounded-full filter blur-3xl"></div>
-                <div class="absolute bottom-20 right-20 w-96 h-96 bg-[#24bcc4] rounded-full filter blur-3xl"></div>
-            </div>
-            
-            <div class="max-w-7xl mx-auto px-6 md:px-10 lg:px-16 py-20 md:py-20 relative z-10">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center">
-                    <!-- Overview / Philosophy -->
-                    <div class="animate-fadeInUp">
-                        
-                        <div class="space-y-6 text-lg text-stone-600 leading-relaxed">
-                            <p>At Aquilafrique, strategy is not theoretical—it is the discipline of execution. We align purpose with practice so that every plan moves beyond the page to produce measurable outcomes and systemic change.</p>
-                            <p>Our Strategic Management service guides clients from vision to disciplined delivery: building robust frameworks, supporting implementation, and ensuring every action is accountable and measurable.</p>
-                            <p>Through this, we sustain your momentum, close performance gaps, and empower your team for continuous improvement—advancing Aquilafrique's broader mission of enabling real-world progress across Africa.</p>
-                        </div>
-                    </div>
-                    
-                    <!-- Service Illustration -->
-                    <div class="flex items-center justify-center animate-scaleIn" style="animation-delay: 0.2s;">
-                        <div class="relative w-full max-w-lg aspect-square">
-                            <div class="absolute inset-0 bg-gradient-to-br from-[#009868]/20 via-[#24bcc4]/20 to-[#ed9311]/20 rounded-3xl blur-2xl animate-float"></div>
-                            <div class="relative bg-white/80 backdrop-blur-sm rounded-3xl border border-white/40 shadow-2xl p-16 flex items-center justify-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 100 100" class="w-full h-full">
-                                    <rect x="8" y="8" width="84" height="84" rx="12" fill="url(#grad1)" fill-opacity="0.08"/>
-                                    <rect x="20" y="20" width="60" height="60" rx="8" fill="url(#grad2)" fill-opacity="0.15"/>
-                                    <rect x="32" y="32" width="36" height="36" rx="6" fill="url(#grad3)" fill-opacity="0.25"/>
-                                    <circle cx="50" cy="50" r="8" fill="#009868"/>
-                                    <defs>
-                                        <linearGradient id="grad1" x1="0" y1="0" x2="100" y2="100">
-                                            <stop offset="0%" stop-color="#009868"/>
-                                            <stop offset="100%" stop-color="#24bcc4"/>
-                                        </linearGradient>
-                                        <linearGradient id="grad2" x1="0" y1="0" x2="100" y2="100">
-                                            <stop offset="0%" stop-color="#24bcc4"/>
-                                            <stop offset="100%" stop-color="#ed9311"/>
-                                        </linearGradient>
-                                        <linearGradient id="grad3" x1="0" y1="0" x2="100" y2="100">
-                                            <stop offset="0%" stop-color="#009868"/>
-                                            <stop offset="100%" stop-color="#118657"/>
-                                        </linearGradient>
-                                    </defs>
-                                </svg>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+    <!-- Service Intro Section -->
+    <section class="bg-white lg:pt-0 pt-10" aria-labelledby="why-piedmont-title">
+        <div class="max-w-7xl mx-auto px-6 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-        <!-- Core Offerings -->
-        <section class="py-24 md:py-20 relative">
-            <div class="max-w-7xl mx-auto px-6 md:px-10 lg:px-16">
-                <div class="text-center mb-16">
-                    <h3 class="font-serif text-4xl md:text-4xl font-bold text-[#0b3435] mb-4">Core Offerings</h3>
-                    <div class="w-24 h-1 bg-gradient-to-r from-[#009868] to-[#24bcc4] mx-auto rounded-full"></div>
-                </div>
-                
-                <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-                    <!-- Card 1 -->
-                    <div class="group gradient-border card-shine rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2">
-                        <div class="p-8">
-                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#DCFBE6] to-[#009868]/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                                <svg class="w-8 h-8 text-[#0ab577]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" /></svg>
-                            </div>
-                            <h4 class="font-semibold text-2xl text-[#0b3435] mb-4">Plan Design</h4>
-                            <p class="text-gray-600 leading-relaxed">Develop tailored strategic or business plans fully aligned with your growth objectives and context.</p>
-                        </div>
-                    </div>
-                    
-                    <!-- Card 2 -->
-                    <div class="group gradient-border card-shine rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2" style="animation-delay: 0.1s;">
-                        <div class="p-8">
-                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#D4F1ED] to-[#24bcc4]/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                                <svg class="w-8 h-8 text-[#24bcc4]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m0 0V8m0 4v4m12-6A9 9 0 11 3 12a9 9 0 0118 0z"/></svg>
-                            </div>
-                            <h4 class="font-semibold text-2xl text-[#0b3435] mb-4">Plan Review</h4>
-                            <p class="text-gray-600 leading-relaxed">Audit existing plans for relevance, feasibility, and real-world implementation readiness.</p>
-                        </div>
-                    </div>
-                    
-                    <!-- Card 3 -->
-                    <div class="group gradient-border card-shine rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-500 transform hover:-translate-y-2" style="animation-delay: 0.2s;">
-                        <div class="p-8">
-                            <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#F8EDDD] to-[#ed9311]/20 flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
-                                <svg class="w-8 h-8 text-[#ed9311]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 11c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2zm0 0c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm0 0V18"/></svg>
-                            </div>
-                            <h4 class="font-semibold text-2xl text-[#0b3435] mb-4">Capacity Coaching</h4>
-                            <p class="text-gray-600 leading-relaxed">Coach and train your teams to manage, monitor, and continuously refine your organization's strategies.</p>
-                        </div>
-                    </div>
+            <!-- Left side: Title and Description -->
+            <div>
+                <h2 id="why-piedmont-title" class="text-2xl mt-10 md:text-4xl lg:text-4xl max-w-sm font-bold mb-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                    What is  <?php the_title(); ?> ?               </h2>
+                <div class="text-base md:text-lg text-black max-w-xl mb-6 prose aos-init aos-animate" data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
+                    <p><span style="font-weight: 400">Consumer goods are about connection. When customers can’t understand your brand or don’t feel understood, conversion drops, loyalty fades, and growth stalls. We help consumer goods leaders remove language and cultural barriers that limit reach and weaken brand equity.</span></p>
+<p><span style="font-weight: 400">Our Strategic Globalization model integrates cultural fluency, custom technology, and strategic insight so you can deliver consumer experiences that resonate worldwide.</span></p>
                 </div>
             </div>
-        </section>
 
-        <!-- Process / Methodology -->
-        <section class="py-24 md:py-20 bg-gradient-to-b from-white to-[#F9F8F6] relative overflow-hidden">
-            <div class="absolute inset-0 opacity-5">
-                <div class="absolute top-0 left-1/4 w-96 h-96 bg-[#009868] rounded-full filter blur-3xl"></div>
+            <!-- Right side: Image -->
+            <div class="flex justify-center lg:justify-end aos-init aos-animate" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+                                <img src="https://piedmontglobal.com/wp-content/uploads/General-Brand_1-1.jpg" alt="Piedmont Global team working with Consumer goods clients" class="max-w-full h-[300px] lg:h-[500px] object-contain">
             </div>
-            
-            <div class="max-w-7xl mx-auto px-6 md:px-10 lg:px-16 relative z-10">
-                <div class="text-center mb-20">
-                    <h3 class="font-serif text-4xl md:text-4xl font-bold text-[#0b3435] mb-4">Our Process</h3>
-                    <div class="w-24 h-1 bg-gradient-to-r from-[#009868] to-[#24bcc4] mx-auto rounded-full"></div>
-                </div>
-                
-                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 process-line">
-                    <!-- Step 1 -->
-                    <div class="relative">
-                        <div class="flex flex-col items-center text-center group">
-                            <div class="relative mb-6">
-                                <div class="absolute inset-0 bg-[#009868]/20 rounded-full filter blur-xl group-hover:blur-2xl transition-all"></div>
-                                <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-[#009868] to-[#118657] flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
-                                    <span class="font-bold text-white text-2xl">1</span>
-                                </div>
-                            </div>
-                            <span class="font-semibold text-xl text-[#0b3435] mb-3">Assessment</span>
-                            <span class="text-gray-600 leading-relaxed">Understand client goals, maturity, and operational reality.</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Step 2 -->
-                    <div class="relative">
-                        <div class="flex flex-col items-center text-center group">
-                            <div class="relative mb-6">
-                                <div class="absolute inset-0 bg-[#24bcc4]/20 rounded-full filter blur-xl group-hover:blur-2xl transition-all"></div>
-                                <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-[#24bcc4] to-[#009868] flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
-                                    <span class="font-bold text-white text-2xl">2</span>
-                                </div>
-                            </div>
-                            <span class="font-semibold text-xl text-[#0b3435] mb-3">Co-creation</span>
-                            <span class="text-gray-600 leading-relaxed">Build actionable frameworks collaboratively with client teams.</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Step 3 -->
-                    <div class="relative">
-                        <div class="flex flex-col items-center text-center group">
-                            <div class="relative mb-6">
-                                <div class="absolute inset-0 bg-[#118657]/20 rounded-full filter blur-xl group-hover:blur-2xl transition-all"></div>
-                                <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-[#118657] to-[#24bcc4] flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
-                                    <span class="font-bold text-white text-2xl">3</span>
-                                </div>
-                            </div>
-                            <span class="font-semibold text-xl text-[#0b3435] mb-3">Implementation Support</span>
-                            <span class="text-gray-600 leading-relaxed">Guide and monitor delivery, adjust approaches and accelerate results.</span>
-                        </div>
-                    </div>
-                    
-                    <!-- Step 4 -->
-                    <div class="relative">
-                        <div class="flex flex-col items-center text-center group">
-                            <div class="relative mb-6">
-                                <div class="absolute inset-0 bg-[#ed9311]/20 rounded-full filter blur-xl group-hover:blur-2xl transition-all"></div>
-                                <div class="relative w-20 h-20 rounded-full bg-gradient-to-br from-[#ed9311] to-[#118657] flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-300">
-                                    <span class="font-bold text-white text-2xl">4</span>
-                                </div>
-                            </div>
-                            <span class="font-semibold text-xl text-[#0b3435] mb-3">Evaluation</span>
-                            <span class="text-gray-600 leading-relaxed">Capture lessons, measure progress, and enable sustainable improvement.</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
 
-        <!-- Outcomes / Impact -->
-        <section class="py-24 md:py-32">
-            <div class="max-w-7xl mx-auto px-6 md:px-10 lg:px-16">
-                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                    <!-- Left: Benefits -->
-                    <div>
-                        <h3 class="font-serif text-4xl md:text-5xl font-bold text-[#0b3435] mb-12">What You Gain</h3>
-                        <div class="space-y-6">
-                            <div class="flex items-start gap-4 group">
-                                <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#009868] to-[#118657] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
-                                </div>
-                                <p class="text-lg text-gray-700 leading-relaxed pt-2">Clear, actionable plans that attract support or funding and drive progress.</p>
-                            </div>
-                            <div class="flex items-start gap-4 group">
-                                <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#24bcc4] to-[#009868] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
-                                </div>
-                                <p class="text-lg text-gray-700 leading-relaxed pt-2">Strengthened internal decision-making and performance systems.</p>
-                            </div>
-                            <div class="flex items-start gap-4 group">
-                                <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#118657] to-[#24bcc4] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
-                                </div>
-                                <p class="text-lg text-gray-700 leading-relaxed pt-2">Increased operational transparency and accountability.</p>
-                            </div>
-                            <div class="flex items-start gap-4 group">
-                                <div class="flex-shrink-0 w-12 h-12 rounded-xl bg-gradient-to-br from-[#ed9311] to-[#118657] flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                                    <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/></svg>
-                                </div>
-                                <p class="text-lg text-gray-700 leading-relaxed pt-2">Empowered, upskilled teams equipped for ongoing change.</p>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Right: Visual -->
-                    <div class="flex justify-center lg:justify-end">
-                        <div class="relative">
-                            <div class="absolute inset-0 bg-gradient-to-br from-[#009868]/20 to-[#24bcc4]/20 rounded-3xl blur-2xl"></div>
-                            <img src="https://cdn.jsdelivr.net/gh/cursor-codegen/copy-assets/strategy-results.svg" alt="Impactful Results Illustration" class="relative w-full max-w-lg rounded-3xl shadow-2xl" loading="lazy" />
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Related Services -->
-        <section class="py-24 md:py-32 bg-gradient-to-br from-[#e6f7ef] via-[#f0f9f4] to-[#e6f7ef] relative overflow-hidden">
-            <div class="absolute inset-0 opacity-5">
-                <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-[#24bcc4] rounded-full filter blur-3xl"></div>
+    <section class="max-w-5xl mx-auto px-6 py-20">
+    <h2 class="font-serif text-4xl font-bold text-black mb-12 text-center leading-tight tracking-tight">
+        Core Offerings
+    </h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+        <?php
+        // Replace with ACF repeater, here hardcoded demo for illustration:
+        $core = [
+            ['icon' => '<circle cx="12" cy="12" r="9" stroke-width="2"/>', 'title' => 'Plan Design', 'desc' => 'Tailored strategic plans built for your context and goals.'],
+            ['icon' => '<rect x="5" y="7" width="14" height="10" rx="2" stroke-width="2"/>', 'title' => 'Plan Review', 'desc' => 'Rigorous audit for relevance and implementation readiness.'],
+            ['icon' => '<path d="M12 6v6l4 2" stroke-width="2"/>', 'title' => 'Capacity Coaching', 'desc' => 'Expert coaching to empower ongoing improvement.']
+        ];
+        foreach($core as $item): ?>
+        <div class="bg-white border border-black rounded-2xl px-10 py-14 flex flex-col items-center justify-between shadow-[0_2px_12px_0_rgba(0,0,0,0.04)] hover:shadow-lg transition-shadow duration-300 group">
+            <div class="flex items-center justify-center w-14 h-14 mb-9 rounded-full border border-black bg-white">
+                <!-- Icon: Render SVG directly for sharpness -->
+                <svg class="w-8 h-8 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><?php echo $item['icon']; ?></svg>
             </div>
-            
-            <div class="max-w-7xl mx-auto px-6 md:px-10 lg:px-16 relative z-10">
-                <div class="text-center mb-16">
-                    <h3 class="font-serif text-4xl md:text-5xl font-bold text-[#0b3435] mb-4">Explore Related Services</h3>
-                    <div class="w-24 h-1 bg-gradient-to-r from-[#009868] to-[#24bcc4] mx-auto rounded-full"></div>
-                </div>
-                
-                <div class="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
-                    <!-- Card 1 -->
-                    <a href="/services/strategic-planning-and-business-planning" class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl overflow-hidden transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden">
-                            <img src="https://cdn.jsdelivr.net/gh/cursor-codegen/copy-assets/plan-writing.webp" alt="Strategic Planning & Business Planning" class="w-full h-64 object-cover transition-transform duration-700 ease-out group-hover:scale-110">
-                        </div>
-                        <div class="p-8">
-                            <h4 class="text-2xl font-semibold text-[#0b3435] mb-4 group-hover:text-[#009868] transition-colors">Strategic Planning & Business Planning</h4>
-                            <p class="text-gray-600 leading-relaxed mb-4">Define direction, align stakeholders, and produce bankable plans grounded in market realities.</p>
-                            <div class="flex items-center text-[#009868] font-semibold group-hover:gap-3 transition-all">
-                                <span>Learn More</span>
-                                <svg class="w-5 h-5 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-                            </div>
-                        </div>
-                    </a>
-                    
-                    <!-- Card 2 -->
-                    <a href="/services/capacity-development" class="group relative bg-white rounded-3xl shadow-xl hover:shadow-2xl overflow-hidden transform transition-all duration-500 hover:-translate-y-2">
-                        <div class="overflow-hidden">
-                            <img src="https://cdn.jsdelivr.net/gh/cursor-codegen/copy-assets/capacity-building.webp" alt="Capacity Development" class="w-full h-64 object-cover transition-transform duration-700 ease-out group-hover:scale-110">
-                        </div>
-                        <div class="p-8">
-                            <h4 class="text-2xl font-semibold text-[#0b3435] mb-4 group-hover:text-[#009868] transition-colors">Capacity Development</h4>
-                            <p class="text-gray-600 leading-relaxed mb-4">Strengthen your organization's capabilities for lasting, self-driven improvement.</p>
-                            <div class="flex items-center text-[#009868] font-semibold group-hover:gap-3 transition-all">
-                                <span>Learn More</span>
-                                <svg class="w-5 h-5 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-                            </div>
-                        </div>
-                    </a>
-                </div>
+            <div class="font-serif text-xl font-bold text-black mb-4 text-center tracking-tight leading-snug group-hover:underline underline-offset-4 transition-all">
+                <?php echo $item['title']; ?>
             </div>
-        </section>
-    </main>
+            <div class="text-center text-base text-neutral-900 leading-relaxed max-w-xs opacity-85">
+                <?php echo $item['desc']; ?>
+            </div>
+        </div>
+        <?php endforeach; ?>
+    </div>
+</section>
 
+
+    <!-- Our Process -->
+    <section class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="font-serif text-4xl font-bold text-black mb-14 text-center tracking-tight">Our Process</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+        <?php 
+        $process_steps = [
+            ['title'=>'Assessment', 'desc'=>'Understand client goals and reality.'],
+            ['title'=>'Co-creation', 'desc'=>'Build frameworks with client teams.'],
+            ['title'=>'Implementation', 'desc'=>'Guide and monitor delivery to accelerate results.'],
+            ['title'=>'Evaluation', 'desc'=>'Capture lessons, measure progress, drive improvement.']
+        ]; 
+        foreach($process_steps as $idx => $step): ?>
+        <div class="flex flex-col items-center bg-white border border-black rounded-xl px-7 py-10 shadow-sm hover:shadow-lg transition-shadow duration-300">
+            <div class="flex items-center justify-center w-12 h-12 rounded-full border border-black bg-white font-mono text-2xl font-bold text-black mb-6 tracking-wide" style="letter-spacing:.05em;">
+                <?php echo $idx+1; ?>
+            </div>
+            <div class="font-serif text-lg font-bold text-black mb-4 text-center leading-tight tracking-tight">
+                <?php echo $step['title']; ?>
+            </div>
+            <div class="text-center text-base text-neutral-900 leading-relaxed opacity-80">
+                <?php echo $step['desc']; ?>
+            </div>
+        </div>
+        <?php endforeach; ?>
+    </div>
+</section>
+
+
+    <!-- What You Gain -->
+    <section class="bg-white lg:pt-0 pt-10" aria-labelledby="why-piedmont-title">
+        <div class="max-w-7xl mx-auto px-6 lg:px-0 grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+
+            <!-- Left side: Title and Description -->
+            <div>
+                <h2 id="why-piedmont-title" class="text-2xl mt-10 md:text-3xl lg:text-4xl max-w-sm font-bold mb-6 aos-init aos-animate" data-aos="fade-up" data-aos-duration="400">
+                What You Gain
+                </h2>
+                <div class="text-base md:text-lg text-black max-w-xl mb-6 prose aos-init aos-animate" data-aos="fade-up" data-aos-duration="400" data-aos-delay="50">
+                    <p><span style="font-weight: 400">Consumer goods are about connection. When customers can’t understand your brand or don’t feel understood, conversion drops, loyalty fades, and growth stalls. We help consumer goods leaders remove language and cultural barriers that limit reach and weaken brand equity.</span></p>
+<p><span style="font-weight: 400">Our Strategic Globalization model integrates cultural fluency, custom technology, and strategic insight so you can deliver consumer experiences that resonate worldwide.</span></p>
+                </div>
+            </div>
+
+            <!-- Right side: Image -->
+            <div class="flex justify-center lg:justify-end aos-init aos-animate" data-aos="fade-up" data-aos-duration="400" data-aos-delay="100">
+                                <img src="https://piedmontglobal.com/wp-content/uploads/General-Brand_1-1.jpg" alt="Piedmont Global team working with Consumer goods clients" class="max-w-full h-[300px] lg:h-[500px] object-contain">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Related Services - Fetched Dynamically -->
+    <section class="max-w-5xl mx-auto px-6 py-12">
+        <h2 class="font-serif  text-2xl lg:text-4xl font-bold text-neutral-900 mb-8 text-center">Related Services</h2>
+        <div class="grid gap-6 md:grid-cols-2">
+            <?php
+            $current_id = get_the_ID();
+            $args = [
+                'post_type' => 'service',
+                'posts_per_page' => 2,
+                'post__not_in' => [$current_id]
+            ];
+            $related_services = new WP_Query($args);
+            if ($related_services->have_posts()) : while ($related_services->have_posts()) : $related_services->the_post(); ?>
+                 <a href="<?php the_permalink(); ?>" class="group relative bg-white border border-gray-200 shadow-sm overflow-hidden flex flex-col transform transition-all duration-500 hover:-translate-y-1 hover:shadow-md aos-init aos-animate" data-aos="fade-up">
+                <div class="overflow-hidden">
+                    <?php if ( has_post_thumbnail() ) : ?>
+                        <?php the_post_thumbnail('large', array('class' => 'w-full h-60 object-cover transition-transform duration-700 ease-out group-hover:scale-105')); ?>
+                    <?php else: ?>
+                        <img src="https://via.placeholder.com/500x300/E3E6E1/aaa?text=Service" alt="No image" class="w-full h-60 object-cover bg-gray-100" />
+                    <?php endif; ?>
+                </div>
+                <div class="p-6 flex flex-col flex-1">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2"><?php the_title(); ?></h3>
+                    <div class="text-gray-700 mb-6 text-lg flex-1"><?php echo wp_trim_words(get_the_excerpt(), 26, '...'); ?></div>
+                    <div class="flex items-center mt-auto text-sm font-semibold text-gray-900 transition-colors duration-300 group-hover:text-[#D16555]">
+                        Learn more
+                        <span class="ml-2 text-lg transition-transform duration-300 group-hover:translate-x-1">→</span>
+                    </div>
+                    <div class="h-0.5 w-8 mt-1 bg-[#D16555] transition-all duration-300 group-hover:w-24"></div>
+                </div>
+            </a>
+            <?php endwhile; wp_reset_postdata(); endif; ?>
+        </div>
+    </section>
+
+</main>
 
 <?php get_footer(); ?>

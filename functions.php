@@ -149,6 +149,11 @@ function pgf_scripts() {
 		null
 	);
 
+	// AOS animations (CSS + JS)
+	wp_enqueue_style( 'aos-css', 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css', array(), '2.3.4' );
+	wp_enqueue_script( 'aos-js', 'https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.min.js', array(), '2.3.4', true );
+	wp_enqueue_script( 'pgf-aos-init', get_template_directory_uri() . '/js/aos-init.js', array( 'aos-js' ), _S_VERSION, true );
+
 	wp_enqueue_script( 'pgf-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {

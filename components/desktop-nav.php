@@ -24,7 +24,7 @@
         <!-- Main Navigation -->
         <?php
         wp_nav_menu([
-          'menu'            => 4,
+          'menu'            => 3,
           'container'        => 'nav',
           'container_class'  => 'main-navigation',
           'container_aria_label' => 'Main navigation',

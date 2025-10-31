@@ -9,37 +9,28 @@ get_header();
 <?php get_template_part( 'components/primary-banner' ); ?>
 
 <!-- Target Clients Section -->
+<!-- Target Clients Section -->
 <section aria-labelledby="targetclients-title" class="relative bg-white py-20">
     <div class="mx-auto w-full max-w-7xl px-6">
         <div class="mx-auto max-w-4xl text-center">
             <p class="text-sm font-semibold uppercase tracking-wider text-[#590925]">Who We Serve</p>
-            <h2 id="targetclients-title" class="mt-3 font-serif font-bold text-[#0b3435] text-3xl lg:text-4xl">Target
-                Clients</h2>
-            <p class="mt-5 text-lg leading-relaxed text-stone-600">Our services are crafted for diverse organizations
-                and changemakers across Africa. Explore our main client groups below.</p>
+            <h2 id="targetclients-title" class="mt-3 font-serif font-bold text-[#0b3435] text-3xl lg:text-4xl">Target Clients</h2>
+            <p class="mt-5 text-lg leading-relaxed text-stone-600">
+                Our services are crafted for diverse organizations and changemakers across Africa. Explore our main client groups below.
+            </p>
         </div>
-        <?php
-    $args = array(
-      'post_type' => 'service',
-      'posts_per_page' => 6,
-      'post_status' => 'publish',
-      'orderby' => 'menu_order',
-      'order' => 'ASC'
-    );
-    $services = new WP_Query($args);
-    if ($services->have_posts()) :
-    ?>
+        
+        <?php if( have_rows('target_clients') ): ?>
         <div class="mt-16 grid grid-cols-1 gap-8 lg:grid-cols-3">
-            <?php while ($services->have_posts()) : $services->the_post(); ?>
-            <?php
-            $icon_svg = get_field('icon_svg');
-            $excerpt = get_the_excerpt();
-          ?>
-            <div
-                class="group relative rounded-2xl border border-[#5b112a]/40 bg-white/5 p-8 backdrop-blur-sm transition-all hover:border-black/80 hover:bg-[#d4a223]/5">
+            <?php while( have_rows('target_clients') ): the_row(); 
+                $icon      = get_sub_field('icon'); // array with url, alt, etc.
+                $title     = get_sub_field('title');
+                $desc      = get_sub_field('description');
+            ?>
+            <div class="group relative rounded-2xl border border-[#5b112a]/40 bg-white/5 p-8 backdrop-blur-sm transition-all hover:border-black/80 hover:bg-[#d4a223]/5">
                 <div class="mb-6 inline-flex h-12 w-12 items-center justify-center rounded-[4px] bg-[#d4a223] text-white">
-                    <?php if ($icon_svg) : ?>
-                        <?php echo $icon_svg; ?>
+                    <?php if ($icon && isset($icon['url'])) : ?>
+                        <img src="<?php echo esc_url($icon['url']); ?>" alt="<?php echo esc_attr($icon['alt'] ?: $title); ?>" class="h-8 w-8 object-contain mx-auto" />
                     <?php else : ?>
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24"
                              stroke-width="1.5" stroke="currentColor">
@@ -48,17 +39,15 @@ get_header();
                         </svg>
                     <?php endif; ?>
                 </div>
-
-                <h3 class="font-serif text-xl font-bold text-black"><?php the_title(); ?></h3>
-                <p class="mt-4 text-sm leading-relaxed text-black"><?php echo esc_html($excerpt); ?></p>
-
-               
+                <h3 class="font-serif text-xl font-bold text-black"><?php echo esc_html($title); ?></h3>
+                <p class="mt-4 text-sm leading-relaxed text-black"><?php echo esc_html($desc); ?></p>
             </div>
-            <?php endwhile; wp_reset_postdata(); ?>
+            <?php endwhile; ?>
         </div>
         <?php endif; ?>
     </div>
 </section>
+
 <!-- End Target Clients Section -->
 
 <section id="services" aria-labelledby="services-title" class="relative bg-gray-100 py-24">

@@ -60,7 +60,7 @@
       <div class="lg:col-span-4">
         
         <p class=" text-base leading-relaxed text-black">
-          Aquilafrique Consulting is a business advisory firm supporting MSMEs and NGOs across Africa through strategic planning, management, and capacity development.
+        Aquilafrique Solutions Limited is a business advisory firm supporting MSMEs and NGOs across Africa through strategic planning, management, and capacity development.
         </p>
 
         <!-- Social Links (if you want black icons, change text-black or keep subtle) -->
@@ -121,7 +121,7 @@
       <div class="flex flex-col items-start justify-between gap-6 lg:flex-row lg:items-center">
         <div class="flex items-center gap-3 text-sm text-black">
          
-          <span>© <?php echo esc_html( date('Y') ); ?> Aquilafrique Consulting. All rights reserved.</span>
+          <span>© <?php echo esc_html( date('Y') ); ?> Aquilafrique Solutions Limited. All rights reserved.</span>
         </div>
         <div class="flex flex-wrap items-center gap-6 text-xs text-black">
           <?php if ( function_exists( 'get_privacy_policy_url' ) && get_privacy_policy_url() ) : ?>

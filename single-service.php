@@ -1,5 +1,4 @@
 <?php
-/* Template Name: Service - Strategic Management */
 get_header();
 get_template_part('components/secondary-banner');
 ?>

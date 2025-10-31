@@ -77,7 +77,7 @@ get_header();
             <!-- Right side: Image -->
             <div class="flex justify-center lg:justify-end aos-init aos-animate" data-aos="fade-up"
                 data-aos-duration="400" data-aos-delay="100">
-                <img src=" <?php echo get_field('definition_image'); ?>"
+                <img src=" <?php echo get_field('definiton_image'); ?>"
                     alt="<?php the_title(); ?>"
                     class="max-w-full h-[300px] lg:h-[500px] object-contain">
             </div>
@@ -85,7 +85,7 @@ get_header();
         </div>
     </section>
 
-    <section class="max-w-5xl mx-auto px-6 pb-20">
+    <section class="max-w-6xl mx-auto px-6 py-10 pb-20">
     <h2 class="font-serif text-4xl font-bold text-black mb-12 text-center leading-tight tracking-tight">
         Core Offerings
     </h2>
@@ -108,9 +108,9 @@ get_header();
 
 
     <!-- Our Process -->
-    <section class="max-w-5xl mx-auto px-6 py-16">
+    <section class="max-w-6xl mx-auto px-6 py-16">
     <h2 class="font-serif text-4xl font-bold text-black mb-14 text-center tracking-tight">Our Process</h2>
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
         <?php if( have_rows('process') ): $i = 1; ?>
             <?php while( have_rows('process') ): the_row(); ?>
             <div class="flex flex-col items-center bg-white border border-black rounded-xl px-7 py-10 shadow-sm hover:shadow-lg transition-shadow duration-300">

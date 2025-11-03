@@ -136,7 +136,7 @@ $insights_query = new WP_Query(
                 capacity building for MSMEs and NGOs.</p>
         </div>
 
-        <section class="bg-[#F9F8F6] py-20">
+        <section class="py-20">
             <div class="">
                 <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mt-0  relative z-10 press-grid">
                     <?php if ( $insights_query->have_posts() ) : while ( $insights_query->have_posts() ) : $insights_query->the_post(); ?>

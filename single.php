@@ -8,45 +8,8 @@
  */
 
 get_header();
+get_template_part( 'components/secondary-banner' );
 ?>
-<header class="relative w-full text-[#F9F8F6] overflow-hidden" style="background: linear-gradient(0deg, var(--Primary-Background, #1F3131), var(--Primary-Background, #1F3131)),
-linear-gradient(1.48deg, rgba(0, 97, 85, 0) 72.24%, #006155 135.34%);
-">
-    <?php get_template_part('components/navigation/desktop'); ?>
-    <?php get_template_part('components/navigation/mobile'); ?>
-
-    <div class="w-full pt-[30%] lg:pt-[5%] px-6 lg:px-0 relative z-20 pb-10 lg:pb-60">
-        <div class="text-start gap-y-4 max-w-7xl mx-auto">
-            <h1 class="text-4xl py-5  md:text-5xl max-w-4xl font-extrabold  leading-[98%]">
-                <?php the_title(); ?>
-            </h1>
-
-            <div class="text-[#F9F8F6] text-base font-light"><?php echo get_the_date(); ?></div>
-
-            <div class="flex items-center gap-4 mt-10">
-                <?php if ($image = get_field('author_image')): ?>
-                <img src="<?php echo esc_url($image); ?>" alt="Profile"
-                    class="w-[60px] h-[60px] object-cover object-center">
-                <?php endif; ?>
-
-                <div>
-                    <?php if ($name = get_field('author_name')): ?>
-                    <div class="text-[#F9F8F6] text-base font-bold">
-                        <?php echo esc_html($name); ?>
-                    </div>
-                    <?php endif; ?>
-
-                    <?php if ($designation = get_field('author_designation')): ?>
-                    <div class="text-[#F9F8F6] text-base font-light">
-                        <?php echo esc_html($designation); ?>
-                    </div>
-                    <?php endif; ?>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</header>
 
 
 <section class=" lg:pt-0 pt-10">

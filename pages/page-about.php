@@ -17,7 +17,7 @@ get_template_part( 'components/secondary-banner' );
                 <h1 class="text-2xl md:text-3xl font-bold text-[#0b3435] leading-tight">
                     Our Value Proposition
                 </h1>
-                <div class="w-16 h-1 bg-gradient-to-r from-[#d4a223] to-[#98C441] rounded-full"></div>
+                <div class="w-16 h-1 bg-gradient-to-r from-[#5b112a] to-[#d4a223] rounded-full"></div>
                 <div class="prose prose-lg max-w-none">
                     <p class="text-base md:text-lg text-gray-700 leading-relaxed">
                         In today's dynamic economic and social environment, organizations often falter not because they lack vision, but due to the absence of <strong class="text-[#006155]">structured, actionable, and adaptable strategies</strong> to transform that vision into measurable results.
@@ -53,7 +53,7 @@ get_template_part( 'components/secondary-banner' );
             <!-- Image Column -->
             <div data-aos="fade-right" data-aos-duration="500" class="order-2 lg:order-1">
                 <div class="relative group">
-                    <div class="absolute -inset-2 bg-gradient-to-r from-[#006155] to-[#98C441] rounded-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-300 blur-xl"></div>
+                    <div class="absolute -inset-2 bg-gradient-to-r from-[#5b112a] to-[#d4a223] rounded-3xl opacity-20 group-hover:opacity-30 transition-opacity duration-300 blur-xl"></div>
                     <img src="https://piedmontglobal.com/wp-content/uploads/iStock-1454186321-1.webp"
                         alt="Collaborative consulting team meeting"
                         width="600" height="500"
@@ -68,20 +68,20 @@ get_template_part( 'components/secondary-banner' );
                 <h2 class="text-2xl md:text-3xl font-bold text-[#0b3435] leading-tight max-w-xl">
                     Transforming ambitious ideas into tangible results
                 </h2>
-                <div class="w-12 h-1 bg-gradient-to-r from-[#d4a223] to-[#98C441] rounded-full"></div>
+                <div class="w-12 h-1 bg-gradient-to-r from-[#5b112a] to-[#d4a223] rounded-full"></div>
                 <p class="text-base md:text-lg text-gray-700 leading-relaxed max-w-xl">
                     Our mission is to partner with businesses, organizations, and communities to transform ambitious ideas into tangible results through strategic planning and collaborative execution.
                 </p>
                 <div class="flex flex-wrap gap-3 pt-2">
                     <div class="flex items-center gap-2">
-                        <div class="w-8 h-8 rounded-full bg-[#006155] bg-opacity-10 flex items-center justify-center">
-                            <svg class="w-4 h-4 text-[#006155]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <div class="w-8 h-8 rounded-full bg-[#5b112a] bg-opacity-10 flex items-center justify-center">
+                            <svg class="w-4 h-4 text-[#5b112a]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                         </div>
                         <span class="text-xs font-medium text-gray-700">Strategic Planning</span>
                     </div>
                     <div class="flex items-center gap-2">
-                        <div class="w-8 h-8 rounded-full bg-[#98C441] bg-opacity-10 flex items-center justify-center">
-                            <svg class="w-4 h-4 text-[#006155]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
+                        <div class="w-8 h-8 rounded-full bg-[#d4a223] bg-opacity-10 flex items-center justify-center">
+                            <svg class="w-4 h-4 text-[#5b112a]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path></svg>
                         </div>
                         <span class="text-xs font-medium text-gray-700">Partnership Focus</span>
                     </div>
@@ -98,7 +98,7 @@ get_template_part( 'components/secondary-banner' );
             <h2 class="text-2xl md:text-3xl font-bold text-[#1F3131] mb-6">
                 What Sets Us Apart
             </h2>
-            <div class="w-20 h-1.5 bg-gradient-to-r from-[#006155] to-[#98C441] rounded-full mx-auto"></div>
+            <div class="w-20 h-1.5 bg-gradient-to-r from-[#5b112a] to-[#d4a223] rounded-full mx-auto"></div>
         </div>
 
         <!-- Features Grid -->
@@ -106,7 +106,7 @@ get_template_part( 'components/secondary-banner' );
             
             <!-- Feature 1 -->
             <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
-                <div class="w-14 h-14 bg-gradient-to-br from-[#006155] to-[#98C441] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div class="w-14 h-14 bg-gradient-to-br from-[#5b112a] to-[#d4a223] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
                     </svg>
@@ -119,7 +119,7 @@ get_template_part( 'components/secondary-banner' );
 
             <!-- Feature 2 -->
             <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-duration="500" data-aos-delay="100">
-                <div class="w-14 h-14 bg-gradient-to-br from-[#006155] to-[#98C441] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div class="w-14 h-14 bg-gradient-to-br from-[#5b112a] to-[#d4a223] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"></path>
                     </svg>
@@ -132,7 +132,7 @@ get_template_part( 'components/secondary-banner' );
 
             <!-- Feature 3 -->
             <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
-                <div class="w-14 h-14 bg-gradient-to-br from-[#006155] to-[#98C441] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div class="w-14 h-14 bg-gradient-to-br from-[#5b112a] to-[#d4a223] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
                     </svg>
@@ -145,7 +145,7 @@ get_template_part( 'components/secondary-banner' );
 
             <!-- Feature 4 -->
             <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-duration="500" data-aos-delay="300">
-                <div class="w-14 h-14 bg-gradient-to-br from-[#006155] to-[#98C441] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div class="w-14 h-14 bg-gradient-to-br from-[#5b112a] to-[#d4a223] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
@@ -158,7 +158,7 @@ get_template_part( 'components/secondary-banner' );
 
             <!-- Feature 5 -->
             <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-duration="500" data-aos-delay="400">
-                <div class="w-14 h-14 bg-gradient-to-br from-[#006155] to-[#98C441] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div class="w-14 h-14 bg-gradient-to-br from-[#5b112a] to-[#d4a223] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                     </svg>
@@ -171,7 +171,7 @@ get_template_part( 'components/secondary-banner' );
 
             <!-- Feature 6 -->
             <div class="group bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 border border-gray-100" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
-                <div class="w-14 h-14 bg-gradient-to-br from-[#006155] to-[#98C441] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                <div class="w-14 h-14 bg-gradient-to-br from-[#5b112a] to-[#d4a223] rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
                     <svg class="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6"></path>
                     </svg>
@@ -195,7 +195,7 @@ get_template_part( 'components/secondary-banner' );
                 <h2 class="text-2xl md:text-3xl font-bold text-[#0b3435] leading-tight">
                     Building bankable plans that unlock opportunities
                 </h2>
-                <div class="w-12 h-1 bg-gradient-to-r from-[#d4a223] to-[#98C441] rounded-full"></div>
+                <div class="w-12 h-1 bg-gradient-to-r from-[#5b112a] to-[#d4a223] rounded-full"></div>
                 <div class="prose prose-base max-w-none space-y-3">
                     <p class="text-base text-gray-700 leading-relaxed">
                         One of the major reasons that Non-Governmental Organizations (NGOs), individuals and both profit and non-profit firms face challenges in accessing formal financing is due to <strong class="text-[#006155]">lack of a bankable Plan</strong> that Financial Institutions and potential funders rely on to assess funding eligibility and levels.
@@ -213,7 +213,7 @@ get_template_part( 'components/secondary-banner' );
             <!-- Image Column -->
             <div data-aos="fade-up" data-aos-duration="500" data-aos-delay="200">
                 <div class="relative">
-                    <div class="absolute -inset-2 bg-gradient-to-br from-[#98C441] to-[#006155] rounded-2xl opacity-10 blur"></div>
+                    <div class="absolute -inset-2 bg-gradient-to-br from-[#d4a223] to-[#5b112a] rounded-2xl opacity-10 blur"></div>
                     <img src="https://piedmontglobal.com/wp-content/uploads/iStock-1454186321-2.svg"
                         alt="Strategic planning and collaboration illustration"
                         width="600" height="500"

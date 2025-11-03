@@ -106,7 +106,7 @@
                     </a>
 
                     <!-- WhatsApp -->
-                    <a href="#" target="_blank"
+                    <a href="https://wa.me/254701201273" target="_blank"
                         class="flex h-10 w-10 items-center justify-center rounded-lg border border-black bg-white text-black backdrop-blur-sm transition-colors hover:border-[#5b112a] hover:text-[#5b112a]"
                         aria-label="WhatsApp">
                         <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
@@ -115,7 +115,7 @@
                         </svg>
                     </a>
 
-                    <a href="#"
+                    <a href="https://x.com/AquilAfrique?t=5dqeQ6bd2wkBAjEsHgm8LA&s=09"
                         class="flex h-10 w-10 items-center justify-center rounded-lg border border-black bg-white text-black backdrop-blur-sm transition-colors hover:border-[#5b112a] hover:text-[#5b112a]"
                         aria-label="X">
                         <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
